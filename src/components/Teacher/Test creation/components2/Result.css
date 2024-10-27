@@ -1,0 +1,49 @@
+.results-container {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-container h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .results-container .score {
+    font-size: 1.4em;
+    margin: 20px 0;
+  }
+  
+  .results-container .score span {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .review-question {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .review-question p {
+    font-size: 1.2em;
+    margin: 8px 0;
+  }
+  
+  .correct {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .incorrect {
+    color: #f44336;
+    font-weight: bold;
+  }
+  
+  .review-separator {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  

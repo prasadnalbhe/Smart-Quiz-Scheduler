@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #D8c7ff, #19006c); Background Gradient */
+    min-height: 100vh;
+  }
+  
+  .test-container {
+    /* width: 57vw; Constant width */
+    margin-top: 20px;
+    margin-left:  250px;
+    border: none;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+   
+  .header h2 {
+    font-size: 1.2em; /* Adjust header font size */
+    color: #333;
+  }
+  
+  .timer-container {
+    font-size: 1.1em; /* Style for timer display */
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .question-container h3 {
+    font-size: 1em; /* Increase question font size */
+    margin-bottom: 0px;
+  }
+  
+  .separator {
+    /* margin: 15px 0; */
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background: #f0f0ff; /* Light background for option */
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .option:hover {
+    background: #d8e3ff; /* Hover effect */
+  }
+  
+  .option input {
+    margin-right: 10px;
+  }
+  
+  .option label {
+    font-size: 1em; /* Increase font size for options */
+  }
+  
+  /* Highlight selected option */
+  .option.selected {
+    background: #c3d3ff; /* Background for selected option */
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 12px 18px; /* Increase button padding */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #4c4cff;
+    color: white;
+    font-size: 1.1em; /* Adjust button font size */
+  }
+  
+  button:hover {
+    background-color: #3c3ccf;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Styles for the results section */
+  .results-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .results-container h2 {
+    font-size: 1.6em;
+    color: #333;
+  }
+  
+  .review-question {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .review-question p {
+    font-size: 1.2em;
+    margin: 8px 0;
+  }
+  
+  .review-separator {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  

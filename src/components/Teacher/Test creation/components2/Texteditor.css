@@ -1,0 +1,117 @@
+/* TextEditor.css */
+.main-container{
+    /* display: flex; */
+     width: 70vw;
+    /* justify-content: center;  */
+}
+.navbar {
+    /* border: 5px solid green; */
+    width: 80%;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    /* display: flex; */
+
+    /* align-items: center; */
+    border-radius: 19px;
+    background-color: #146C94;
+}
+
+.filenameinput {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 100px;
+    border: 40px solid black;
+    border-radius: 20px;
+}
+
+.savebutton {
+    padding: 8px 16px;
+    background-color: #19A7CE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 0px;
+}
+
+.label {
+    padding: 8px 16px;
+    background-color: #19A7CE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.labelimage{
+    padding: 8px 16px;
+    background-color: #19A7CE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+.textContainer {
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+.textarea {
+    width: 70vw;
+    height: calc(70vw * 3 / 4);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.modalInput {
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.switchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modalButton {
+    padding: 8px 16px;
+    background-color: #844CE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+}

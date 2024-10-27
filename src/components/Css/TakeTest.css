@@ -1,0 +1,7 @@
+
+/* width */
+.outer-container::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  

@@ -1,0 +1,89 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7299ac;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* max-width: 900px; */
+    /* border: 1px solid black; */
+  
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"]
+  {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #2687e8;
+    cursor: pointer;
+    background-color: #93aac2;
+    color: rgb(253, 253, 253);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    button {
+      padding: 12px;
+    }
+  }
+  

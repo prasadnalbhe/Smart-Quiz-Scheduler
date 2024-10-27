@@ -1,0 +1,25 @@
+.ViewResults {
+    padding: 20px;
+}
+
+.test-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.test-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.test-container h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.test-container p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

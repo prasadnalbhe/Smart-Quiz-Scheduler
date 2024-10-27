@@ -1,0 +1,59 @@
+Q. What does CPU stand for?  
+   *a) Central Processing Unit  
+   b) Computer Personal Unit  
+   c) Central Performance Unit  
+   d) Control Processing Unit  
+
+Q. Which data structure uses LIFO (Last In, First Out) principle?  
+   a) Queue  
+   *b) Stack  
+   c) Array  
+   d) Linked List  
+
+Q. What is the time complexity of accessing an element in an array?  
+   a) O(n)  
+   b) O(log n)  
+   *c) O(1)  
+   d) O(n log n)  
+
+Q. Which of the following is a type of non-volatile memory?  
+   a) RAM  
+   *b) Flash Memory  
+   c) Cache Memory  
+   d) Registers  
+
+Q. What does HTTP stand for?  
+   a) Hyper Transfer Text Protocol  
+   b) Hyper Text Transmission Protocol  
+   *c) Hyper Text Transfer Protocol  
+   d) High Text Transfer Protocol  
+
+Q. In which programming paradigm is the function a first-class citizen?  
+   *a) Functional Programming  
+   b) Object-Oriented Programming  
+   c) Procedural Programming  
+   d) Logic Programming  
+
+Q. Which algorithm is used for finding the shortest path in a graph?  
+   *a) Dijkstra's Algorithm  
+   b) Prim's Algorithm  
+   c) Kruskal's Algorithm  
+   d) Bellman-Ford Algorithm  
+
+Q. What does SQL stand for?  
+   a) Structured Quory Language  
+   *b) Structured Query Language  
+   c) Simple Query Language  
+   d) Sequential Query Language  
+
+Q. Which of the following is a popular version control system?  
+   *a) Git  
+   b) Subversion  
+   c) Mercurial  
+   d) All of the above  
+
+Q. What is the main purpose of an operating system?  
+   a) To run applications  
+   b) To manage hardware and software resources  
+   c) To provide a user interface  
+   *d) All of the above  
